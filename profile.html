@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Profile</title>
+</head>
+
+<body>
+    <div id="nav-slider" class="navbar-slider p-3 bg-dark">
+        <ul class="d-flex flex-column justify-content-center align-items-center position-relative">
+            <div id="exit" class="exit">
+                <img src="./assets/exit.svg" alt="" />
+            </div>
+            <li style="border: none !important" class="list-group-item w-100 text-center p-3 bg-dark mt-4">
+                <a style="text-decoration: none; color: #fff; font-weight: bolder" href="/">Main</a>
+            </li>
+            <li style="border: none !important" class="list-group-item w-100 text-center p-3 bg-dark">
+                <a style="text-decoration: none; color: #fff; font-weight: bolder" href="./profile.html">Profile</a>
+            </li>
+            <li style="border: none !important" class="list-group-item w-100 text-center p-3 bg-dark">
+                <a style="text-decoration: none; color: #fff; font-weight: bolder" href="./about.html">About</a>
+            </li>
+        </ul>
+    </div>
+    <div style="height: 100vh; position: relative" class="container-fluid">
+        <header>
+            <div class="left">
+                <img class="logo" src="./assets/S.svg" alt="logo" />
+                <img style="display: none" id="berger" class="berger" src="./assets/berger.svg" alt="" />
+            </div>
+            <div class="centerHeader d-flex gap-5">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./profile.html">Profile</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="right d-flex gap-4">
+                <div class="">
+                    <a target="_blank" href="https://web.facebook.com/sainakub.sai">
+                        <img id="facebook" src="./assets/facebook.svg" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/sai_ilove/">
+                        <img id="facebook" src="./assets/instagram.svg" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://github.com/sainakub/sainakub/">
+                        <img id="facebook" src="./assets/github.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="d-flex gap-5">
+            <div class="image-profile">
+                <div>
+                    <img src="./assets/profile.jpg" alt="" />
+                </div>
+            </div>
+            <div class="content-profile-child shadow shadow-md">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div style="font-weight: bolder !important">ชื่อ :</div>
+                    <div>นายใส สังข์แก้ว</div>
+                </div>
+                <div><strong>อายุ</strong> : 23 ปี</div>
+                <div><strong>วัน/เดือน/ปีเกิด</strong> : 12 มีนาคม 2543</div>
+                <div>
+                    <strong> ที่อยู่</strong> : 19/7 ซอย 7 ถนนประชาบำรุง ตำบลคูหาสวรรค์
+                    อำเภอเมือง จังหวัดพัทลุง
+                </div>
+                <div class="education w-100 d-flex justify-content-center align-items-start flex-column">
+                    <ul class="w-100">
+                        <strong>การศึกษา </strong>
+                        <li class="px-3">
+                            ระดับประกาศนียบัตรวิชาชีพ วิทยาลัยเทคนิคพัทลุง สาขาวิชา
+                            เทคนิคคอมพิวเตอร์
+                        </li>
+                        <li class="px-3">
+                            ระดับประกาศนียบัตรวิชาชีพชั้นสูง วิทยาลัยเทคนิคพัทลุง สาขาวิชา
+                        เทคโนโลยีคอมพิวเตอร์
+                        </li>
+                        <li class="px-3">
+                            
+                        ระดับปริญญาตรี มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ สาขาวิชา
+                        วิศวกรรมระบบเครื่องมือวัดและอิเล็กทรอนิกส์
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="./assets/logo_kmutnbSvgWhite.svg" alt="" />
+            </div>
+            <div>
+                <h1>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h1>
+            </div>
+            <div></div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
